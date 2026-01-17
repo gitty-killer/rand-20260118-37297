@@ -1,0 +1,13 @@
+{
+  "project_title": "Publishing Calendar",
+  "goal": "Balance content pipeline across formats and deadlines.",
+  "entity_name": "content_item",
+  "amount_label": "effort_hours",
+  "score_label": "readiness_score",
+  "categories": [
+    "blog",
+    "video",
+    "newsletter",
+    "social"
+  ]
+}

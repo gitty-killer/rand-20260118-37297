@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "id": "content_item-01",
+      "name": "content_item_01",
+      "category": "blog",
+      "amount": 13,
+      "score": 53,
+      "status": "ok"
+    },
+    {
+      "id": "content_item-02",
+      "name": "content_item_02",
+      "category": "video",
+      "amount": 16,
+      "score": 56,
+      "status": "ok"
+    },
+    {
+      "id": "content_item-03",
+      "name": "content_item_03",
+      "category": "newsletter",
+      "amount": 19,
+      "score": 59,
+      "status": "ok"
+    },
+    {
+      "id": "content_item-04",
+      "name": "content_item_04",
+      "category": "social",
+      "amount": 22,
+      "score": 62,
+      "status": "needs_review"
+    },
+    {
+      "id": "content_item-05",
+      "name": "content_item_05",
+      "category": "unknown",
+      "amount": 25,
+      "score": 65,
+      "status": "ok"
+    },
+    {
+      "id": "content_item-06",
+      "name": "content_item_06",
+      "category": "video",
+      "amount": 28,
+      "score": 68,
+      "status": "ok"
+    },
+    {
+      "id": "content_item-07",
+      "name": "content_item_07",
+      "category": "newsletter",
+      "amount": 31,
+      "score": 71,
+      "status": "ok"
+    },
+    {
+      "id": "content_item-08",
+      "name": "content_item_08",
+      "category": "social",
+      "amount": 34,
+      "score": 74,
+      "status": "needs_review"
+    },
+    {
+      "id": "content_item-09",
+      "name": "content_item_09",
+      "category": "blog",
+      "amount": 37,
+      "score": 77,
+      "status": "ok"
+    },
+    {
+      "id": "content_item-10",
+      "name": "content_item_10",
+      "category": "video",
+      "amount": 40,
+      "score": 80,
+      "status": "ok"
+    },
+    {
+      "id": "content_item-11",
+      "name": "content_item_11",
+      "category": "newsletter",
+      "amount": 43,
+      "score": 83,
+      "status": "ok"
+    },
+    {
+      "id": "content_item-12",
+      "name": "content_item_12",
+      "category": "social",
+      "amount": 46,
+      "score": 86,
+      "status": "needs_review"
+    }
+  ],
+  "rules": {
+    "min_amount": 5,
+    "max_amount": 60,
+    "allowed_statuses": [
+      "ok",
+      "needs_review",
+      "blocked"
+    ]
+  },
+  "expected": {
+    "total_amount": 354,
+    "avg_score": 69.5,
+    "top_item": "content_item-12",
+    "issue_count": 1
+  }
+}
